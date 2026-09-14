@@ -4828,11 +4828,11 @@ static void output_top_makefile( struct makefile *make )
 
     if (!strarray_exists( disabled_dirs[0], "tools/wine" ))
     {
-        const char *loader = "tools/wine/wine";
-        if (!strarray_exists( subdirs, "tools/wine" )) loader = tools_path( "wine" );
-        output( "wine: %s\n", loader );
+        const char *loader = "tools/wine/lemonade";
+        if (!strarray_exists( subdirs, "tools/wine" )) loader = tools_path( "lemonade" );
+        output( "lemonade: %s\n", loader );
         output( "\t%srm -f $@ && %s %s $@\n", cmd_prefix( "LN" ), ln_s, loader );
-        strarray_add( &make->all_targets[0], "wine" );
+        strarray_add( &make->all_targets[0], "lemonade" );
     }
 
     if (wine64_dir)

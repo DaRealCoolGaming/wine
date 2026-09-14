@@ -6,7 +6,7 @@ m4_define(WINE_VERSION,regexp(m4_include(VERSION),[version \([-.0-9A-Za-z]+\)],[
 
 dnl autoconf versions before 2.63b don't have AS_VAR_APPEND or AS_VAR_IF
 AC_PREREQ(2.63b)
-AC_INIT([Wine],[WINE_VERSION],[wine-devel@winehq.org],[wine],[https://www.winehq.org])
+AC_INIT([lemonade],[WINE_VERSION],[wine-devel@winehq.org],[lemonade],[https://www.winehq.org])
 AC_CONFIG_SRCDIR(server/atom.c)
 AC_CONFIG_HEADERS(include/config.h)
 
@@ -2086,7 +2086,7 @@ fi
 
 dnl **** Platform-specific checks ****
 
-AC_SUBST(WINELOADER_PROGRAMS,"wine")
+AC_SUBST(WINELOADER_PROGRAMS,"lemonade")
 
 case $host_os in
   linux*)

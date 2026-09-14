@@ -7,13 +7,15 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>English</string>
     <key>CFBundleExecutable</key>
-    <string>wine</string>
+    <string>lemonade</string>
     <key>CFBundleIdentifier</key>
-    <string>org.winehq.wine</string>
+    <string>com.drink.lemonade</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
-    <string>Wine</string>
+    <string>lemonade</string>
+    <key>CFBundleDisplayName</key>
+    <string>lemonade</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>

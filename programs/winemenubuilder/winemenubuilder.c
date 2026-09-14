@@ -1323,7 +1323,7 @@ static BOOL write_directory_entry(const WCHAR *directory, const WCHAR *location)
     if (wcscmp(directory, L"wine") == 0)
     {
         fprintf(file, "Name=Wine\n");
-        fprintf(file, "Icon=wine\n");
+        fprintf(file, "Icon=lemonade\n");
     }
     else
     {
@@ -2039,7 +2039,7 @@ static BOOL write_freedesktop_association_entry(const WCHAR *desktopPath, const 
             heap_free( path );
         }
         else
-            fprintf(desktop, "Exec=wine start ");
+            fprintf(desktop, "Exec=lemonade start ");
         if (progId) /* file association */
             fprintf(desktop, "/ProgIDOpen \"%s\" %%f\n", escape(progId));
         else /* protocol association */

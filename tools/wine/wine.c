@@ -55,7 +55,7 @@ static void *load_ntdll(void)
         if ((handle = try_dlopen( strmake( "%s/ntdll.so", dir ), &errors )))
             return handle;
     }
-    fprintf( stderr, "wine: could not load ntdll.so:\n" );
+    fprintf( stderr, "lemonade: could not load ntdll.so:\n" );
     STRARRAY_FOR_EACH( error, &errors ) fprintf( stderr, "  %s\n", error );
     exit(1);
 }
@@ -69,6 +69,6 @@ int main( int argc, char *argv[] )
     init_func = dlsym( load_ntdll(), "__wine_main" );
     if (init_func) init_func( argc, argv );
 
-    fprintf( stderr, "wine: __wine_main function not found in ntdll.so\n" );
+    fprintf( stderr, "lemonade: __wine_main function not found in ntdll.so\n" );
     exit(1);
 }
