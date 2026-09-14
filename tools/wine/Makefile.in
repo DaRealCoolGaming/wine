@@ -1,4 +1,4 @@
-PROGRAMS = wine
+PROGRAMS = lemonade
 
 SOURCES = \
 	wine.c \

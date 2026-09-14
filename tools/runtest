@@ -148,4 +148,4 @@ export WINETEST_PLATFORM WINETEST_DEBUG
 #  WINETEST_WRAPPER=valgrind
 # would run the tests under valgrind to look for memory errors.
 
-exec $WINETEST_WRAPPER "$topobjdir/wine" "$program" "$@"
+exec $WINETEST_WRAPPER "$topobjdir/lemonade" "$program" "$@"

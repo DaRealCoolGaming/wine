@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=Wine Windows Program Loader
+Name=lemonade Windows Program Loader
 Name[ar]=منظومة واين لتشغيل برامج وندوز
 Name[cs]=Zavaděč programů pro Wine
 Name[de]=Wine Windows-Programmstarter
@@ -26,8 +26,8 @@ Name[hr]=Wine - dizač Windows programa
 Name[he]=Wine — מריץ תכניות Windows
 Name[ja]=Wine Windowsプログラムローダー
 Name[pl]=Wine – uruchamianie programów Windows
-Exec=wine start /unix %f
+Exec=lemonade start /unix %f
 MimeType=application/x-ms-dos-executable;application/x-msi;application/x-ms-shortcut;application/x-bat;application/x-mswinurl
-Icon=wine
+Icon=lemonade
 NoDisplay=true
 StartupNotify=true

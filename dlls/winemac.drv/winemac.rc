@@ -28,7 +28,7 @@ LANGUAGE LANG_ENGLISH, SUBLANG_DEFAULT
 
 STRINGTABLE
 {
-    STRING_MENU_WINE                        "Wine"
+    STRING_MENU_WINE                        "lemonade"
     STRING_MENU_ITEM_HIDE_APPNAME           "Hide %@"
     STRING_MENU_ITEM_HIDE                   "Hide"
     STRING_MENU_ITEM_HIDE_OTHERS            "Hide Others"
